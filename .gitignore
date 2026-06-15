@@ -1,0 +1,15 @@
+# Go
+/server
+
+# Terraform
+infra/.terraform/
+infra/terraform.tfstate
+infra/terraform.tfstate.*
+infra/*.tfvars
+!infra/*.tfvars.example
+infra/tfplan
+infra/*.tfplan
+crash.log
+
+# OS
+.DS_Store
